@@ -101,6 +101,12 @@ footer {
   width: 70%;
   height: 70%;
   padding: 30px;
+  filter: grayscale(1);
+  transition: filter 1.5s;
+}
+
+#contact img:hover {
+  filter: grayscale(0);
 }
 
 main img {
